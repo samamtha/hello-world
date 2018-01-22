@@ -1,0 +1,33 @@
+html {
+  color: #FA8072;
+  font-size: 10px;
+  font-family: placeholder;
+  background-color: #9370DB;
+}
+
+h1{
+  font-size: 60px;
+  margin: 0;
+  padding: 50px 0;
+  color: #00539F;
+  text-shadow: 5px 5px 10px gray;      /*右 下 散度*/
+}
+
+p,li{
+  font-size: 16px;
+  line-height: 30px;                    /*行高*/
+  letter-spacing: 1px;                  /*字间距*/
+}
+
+body{margin: 0;
+  background-color: #E6E6FA;
+  width: 600px;                          /*页宽*/
+  margin: 50px auto;                     /*边距*/
+  padding: 50px 30px 50px 30px;          /*内边距*/
+  border: 5px solid black;               /*线粗、线形状*/
+}
+
+img{
+  display: block;                        /*将图像改成块级元素*/
+  margin: 0 auto;
+}
