@@ -1,0 +1,19 @@
+scroll-view , .background{
+  width:3764rpx;
+  height: 3484rpx;
+}
+.icon{
+  position: absolute;
+  width: 50rpx;
+  height: 50rpx;
+  padding:0 5rpx;
+  overflow:hidden;
+  box-sizing:border-box;
+}
+.focus{
+  position:fixed;
+  right:60rpx;
+  bottom: 100rpx;
+  width: 70rpx;
+  height: 70rpx;
+}

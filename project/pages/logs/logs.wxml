@@ -1,0 +1,29 @@
+<!--logs.wxml-->   
+<scroll-view scroll-x='true' scroll-y='true'  scroll-top="{{firstTop}}" scroll-left="{{toView}}" bindtouchstart="touchstartCallback"  bindtouchmove="touchmoveCallback" bindtouchend="touchendCallback" style="transform-origin:{{PageX}} {{PageY}}; transform: scale({{stv.scale}});">
+    <image class="background"   src="../image/45.jpg" />
+    <image class="icon" id="icon"  src="../image/icon.png" style="top:{{top}};left:{{left}};"/>
+</scroll-view>     
+<view bindtap="focus"><image class="focus" src="../image/focus.png" /></view>
+          
+  <!--  
+  <button class="btn" size='default' type='primary' bindtap="getlocation" plain='false'>获取经纬度</button>
+  <button class="btn2" size='default' type='primary' bindtap="openlocation" plain='false'>打开地图</button>
+    
+  <view class="txt1" style='height:60px'>
+  <text>{{"经度："+longitude}}</text>
+  </view>
+  <view class="txt2" style='height:60px'>
+  <text>{{"纬度："+latitude}}</text>
+  </view>
+  <view class="txt3" style='height:60px'>
+  <text>{{"px："+left}}</text>
+  </view>
+  <view class="txt4" style='height:60px'>
+  <text>{{"py："+top}}</text>
+  </view>
+
+
+translate({{translateX}}px,{{translateY}}px)
+
+  -->
+
